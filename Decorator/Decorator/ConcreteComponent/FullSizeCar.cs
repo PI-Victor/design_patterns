@@ -9,10 +9,10 @@ namespace Decorator.ConcreteComponent
     {
         public FullSizeCar()
         {
-
+            Description = "Sedan";
         }
 
         public override string GetDescription() => Description;
-        public override double GetCarPrice() => 30000.00;
+        public override double GetCarPrice() => 45000.00;
     }
 }
